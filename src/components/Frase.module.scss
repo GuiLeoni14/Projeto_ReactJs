@@ -1,9 +1,14 @@
+@mixin flex($disp, $teste) {
+    display: $disp;
+    align-items: $teste;
+}
 .fraseContainer{
     background-color: #ccc;
     border: 1px solid black;
 }
 
 .fraseContent{
+    // @include flex(flex, center);
     color: #fff;
     background-color: #333;
     margin: 0;
